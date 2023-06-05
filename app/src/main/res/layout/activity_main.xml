@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@drawable/denemebaslik"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDepremBilgilendirme"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Deprem Bilgilendirme"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnAcilDurumPlan"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Acil Durum Planı"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnDepremOncesiHazirlik"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Deprem Çantası"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnDepremSirasi"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Deprem Sırasında Yapılması Gerekenler"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnDepremSonrasi"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Deprem Sonrası İlk Yardım ve Kurtarma"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/btnComplaintOrMessage"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Şikayet ve İleti"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp" />
+
+</LinearLayout>
